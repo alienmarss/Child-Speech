@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- This meta is very important for responsive design. Without this it wouldn't work at all -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- This meta will appear in search engine -->
+	<meta name="description" content="Omnifood is an AI-powered food subscription 
+    that will make you eat healthy again, 365 days oer year. It's tailored to your personal
+    tastes and nutritional needs.">
+
+	<!-- Adding favicon for browser-->
+	<link rel="icon" href="img/favicon.svg">
+	<!-- Adding favicon for iOS on homescreen. Apple has hard size rule of 180x180 -->
+	<link rel="apple-touch-icon" href="img/favicon-apple-180.png">
+	<!-- "manifest.webmanifest" This file is for recognizing favicon files in Android -->
+	<link rel="manifest" href="manifest.webmanifest">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@400;500;700&family=Outfit:wght@300;400;500;600&family=Rubik:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/queries.css" />
+
+
+	<!-- This script is for icons -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+	<title>Child Speech &mdash; Speech therapy for your kids!</title>
+</head>
+
+<body>
+	<header class="header">
+		<a href="#">
+			<!-- <img class="logo" src="img/omnifood-logo.png" alt="Omnifood logo"> -->
+			<img class="logo" src="img/hero-logo.svg" alt="Child Speech logo" data-aos="fade-down"
+				style="transition:0.5s">
+		</a>
+		<nav class="main-nav">
+			<ul class="main-nav-list" data-aos="fade-down" style="transition:0.5s">
+				<li><a class="main-nav-link" href="#how">Як ми працюємо</a></li>
+				<li><a class="main-nav-link" href="#meals">Послуги</a></li>
+				<li><a class="main-nav-link" href="#testimonials">Відгуки</a></li>
+				<li><a class="main-nav-link" href="#about">Про нас</a></li>
+				<li><a class="main-nav-link nav-cta" href="#cta">Безкоштовна Консультація</a></li>
+			</ul>
+		</nav>
+		<!-- Building mobile menu -->
+		<button class="btn-mobile-nav">
+			<ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+			<ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+		</button>
+	</header>
+	<main>
+		<section class="section-hero">
+			<div class="hero" data-aos="zoom-in" style="transition:0.5s">
+				<div class="hero-text-box">
+					<h1 class="heading-primary">Дитячий логопед</h1>
+					<p class="hero-description">Навчимо правильно розмовляти Вашу дитину за допомогою сучасних
+						сертифікованих методик </p>
+					<a href="#cta" class="btn btn--full margin-right-sm">Консультація</a>
+					<a href="#how" class="btn btn--outline">Дізнатись більше &darr;</a>
+					<div class="delivered-meals">
+						<div class="delivered-imgs">
+							<img src="img/hero1.webp" alt="Customer photo">
+							<img src="img/hero2.webp" alt="Customer photo">
+							<img src="img/hero3.webp" alt="Customer photo">
+							<img src="img/hero4.webp" alt="Customer photo">
+							<img src="img/hero5.webp" alt="Customer photo">
+							<img src="img/hero6.webp" alt="Customer photo">
+						</div>
+						<p class="delivered-text"> <span>300+</span> Щасливих співрозмовників </p>
+					</div>
+				</div>
+				<div class="hero-img-box">
+					<!-- with this trick we show browser that we have two source of images and 
+                    browser will decide which format to use png or webp-->
+					<picture>
+						<!-- <source srcset="img/hero.webp" type="image/webp">
+						<source srcset="img/hero.png" type="image/png"> -->
+						<img src="img/therapy-with-girl.jpg" class="hero-img" alt="Woman enjoying food, meals in storage container, 
+                                        and food bowls on a table" />
+					</picture>
+				</div>
+			</div>
+		</section>
+
+
+
+		<!-- Reuseable grid!!!! -->
+		<section class="section-how" id="how">
+
+			<div class="container" data-aos="zoom-in">
+				<span class="subheading">Як ми працюємо</span>
+				<h2 class="heading-secondary">Вже на третьому занятті відчуєте результат</h2>
+			</div>
+			<div class="container grid grid-2-cols grid-center-v">
+
+				<!-- STEP 01 -->
+				<div class="step-text-box" data-aos="zoom-in">
+					<p class="step-number">01</p>
+					<h3 class="heading-tertiary">Кваліфікація</h3>
+					<p class="step-description">
+						З вашою дитиною буде працювати високо кваліфікаційний логопед-дефектолог з вищою корекційною
+						освітою та стажем роботи
+						більше 10 років. Структура занять розроблена згідно віку дитини та її особливостей розвитку.
+					</p>
+					<div class="anim-elements">
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+					</div>
+				</div>
+				<div class="step-img-box" data-aos="zoom-in">
+					<img src="img/works1.webp" class="step-img1" alt="iPhone app preferences selection screen">
+				</div>
+				<!-- STEP 02 -->
+				<div class="step-img-box" data-aos="zoom-in">
+					<img src="img/works2.webp" class="step-img2" alt="Meal approving plan screen">
+				</div>
+				<div class="step-text-box" data-aos="zoom-in">
+					<p class="step-number">02</p>
+					<h3 class="heading-tertiary">Професіоналізм</h3>
+					<p class="step-description">
+						Працюємо над корекцією звуковимови, розвиваємо фонематичний слух, граматичну сторону
+						мовлення,
+						накопичуємо активний
+						словник, працюємо з дикцією, голосом, диханням. Заняття проходять у ігровій формі, тому
+						гарантуємо результат.
+					</p>
+					<div class="anim-elements">
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+					</div>
+				</div>
+				<!-- STEP 03 -->
+				<div class="step-text-box" data-aos="zoom-in">
+					<p class="step-number">03</p>
+					<h3 class="heading-tertiary">Комунікація</h3>
+					<p class="step-description">
+						Ефективна комунікація з педагогом! Її мета - налагодити взаємозв'язок з вашою дитиною, тому ми
+						робимо все для плідної
+						співпраці. Ми вміємо слухати і чути співрозмовника.
+					</p>
+					<div class="anim-elements">
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+						<div class="anim-element"></div>
+					</div>
+				</div>
+				<div class="step-img-box" data-aos="zoom-in">
+					<img src="img/works3.webp" class="step-img3" alt="Iphone app delivery screen">
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="section-meals" id="meals">
+			<div class="container center-text">
+				<span class="subheading">Послуги</span>
+				<a href="#cta" class="link-services"><span class="link-span">Замовити консультацію</span> &rarr;</a>
+			</div>
+			<div class="container grid-services margin-right-md">
+				<div class="meal">
+					<!-- <img src="img/meals/1.webp" class="meal-img" alt="Japanese Gyozas"> -->
+					<div class="meal-content">
+						<p class="meal-title">Корекційні заняття</p>
+						<ul class="meal-attributes">
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon> <span>Постановка
+									звука</span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+								<span>Автоматизація</span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon> <span>Введення у
+									мовлення</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="meal ">
+					<!-- <img src="img/meals/2.webp" class="meal-img" alt="Avocado Salad"> -->
+					<div class="meal-content">
+
+						<p class="meal-title">Консультування батьків онлайн</p>
+						<ul class="meal-attributes">
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon> <span>Якщо
+									дитина не говорить?</span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon> <span>Коли звертатись
+									до логопеда?</span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon> <span>Проситі секрети
+									батькам</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="meal ">
+					<!-- <img src="img/meals/3.webp" class="meal-img" alt="Avocado Salad"> -->
+					<div class="meal-content">
+
+						<p class="meal-title">Діагностування дітей від 3 років</p>
+						<ul class="meal-attributes">
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon> <span>Лише ігрові
+									методики</span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon> <span>Активний
+									і пасивний словник</span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon> <span>Дрібна та
+									загальна моторики</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="meal ">
+
+					<div class="meal-content">
+
+						<p class="meal-title">Логопедичний масаж та самомасаж</p>
+						<ul class="meal-attributes">
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon> <span>Метод механічного
+									впливу </span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+								<span>Комплексна медико-педагогічна </span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="list-icon" name="checkmark-outline"></ion-icon> <span>Допомагає
+									активізувати м'язи</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="container all-recipes">
+				<a href="#" class="link load-more">Всі послуги &darr;</a>
+			</div> -->
+		</section>
+
+		<section class="section-testimonials" id="testimonials">
+
+			<div class="testimonials-container">
+				<span class="subheading">Відгуки</span>
+				<h2 class="heading-secondary">Чому саме ми? Все просто...</h2>
+
+				<div class="testimonials">
+					<figure class="testimonial">
+						<img class="testimonial-img" src="img/rev1.webp" alt="Photo of customer ">
+						<blockquote class="testimonial-text">Дитина 8 років,не вимовляла звук Р,по рекомендації знайомих
+							звернулись до Дар'ї,тепер у нас все
+							добре👍,рекомендуємо🌺.Швидко впорались з цією проблемою.
+						</blockquote>
+						<p class="testimonial-name">&mdash; Маргарита</p>
+					</figure>
+					<figure class="testimonial">
+						<img class="testimonial-img" src="img/rev2.webp" alt="Photo of customer ">
+						<blockquote class="testimonial-text">Величезна вдячність Спеціалісту з великої букви Дар’ї. Вона
+							займалася з двома нашими дітками, з першим 8 років тому, з
+							другим нещодавно, і кожного разу дітки чекали зустрічі з нетерпінням. Професійний підхід та
+							швидкий результат вам
+							гарантовані. Рекомендуємо від душі!!!</blockquote>
+						<p class="testimonial-name">&mdash; Артем</p>
+					</figure>
+					<figure class="testimonial">
+						<img class="testimonial-img" src="img/rev3.webp" alt="Photo of customer ">
+						<blockquote class="testimonial-text">Величезна подяка Дар‘ї за її роботу! Донька швидко
+							заговорила
+							чітко і правильно! Заняття були цікаві та за віком,
+							проходили в ігровій формі. Рекомендації чіткі та зрозумілі, донька не помічала, як пролітав
+							час.
+							Рекомендую
+
+						</blockquote>
+						<p class="testimonial-name">&mdash; Поліна</p>
+					</figure>
+					<figure class="testimonial">
+						<img class="testimonial-img" src="img/rev4.webp" alt="Photo of customer ">
+						<blockquote class="testimonial-text">Хочу сказати Дякую Дар‘ї. Вона нам за місяць поставила
+							правильну вимову декількох звуків. Дуже швидко і зрозуміло.
+							Приємно було займатися. Дитина йшла на заняття із задоволенням.</blockquote>
+						<p class="testimonial-name">&mdash; Тимофій</p>
+					</figure>
+				</div>
+			</div>
+
+			<div class="testimonial-2">
+				<figure class="testimonial">
+					<img class="testimonial-img" src="img/rev5.webp" alt="Photo of customer Hannah Smith">
+					<blockquote class="testimonial-text">Дар’я-чудовий спеціаліст, приємна людина, яка викликає довіру з
+						першої хвилини спілкування! Ми не помилилися, коли,по
+						рекомендації знайомих, звернулися по допомогу до Дар‘ї. Швидко та якісно виправила всі дефекти
+						звуковимови у нашої
+						дитини. Безмежно вдячні і не задумуючись рекомендуємо!</blockquote>
+					<p class="testimonial-names">&mdash; Герман</p>
+				</figure>
+				<figure class="testimonial">
+					<img class="testimonial-img" src="img/rev6.webp" alt="Photo of customer Hannah Smith">
+					<blockquote class="testimonial-text">Хочу подякувати не тільки чудовій людині,найкращому вчителю ,а
+						і дуже гарному логопеду Дарії Володимирівні,яка швидко
+						знайшла підхід до моєї дитини.Зараз це дуже важливо бути чуйною і доброю!Заняття проходили
+						цікаво і з великим
+						задоволенням в ігровій формі.З кожним заняттям вже було видно результат.З великим задоволенням
+						рекомендую довірити свою
+						дитину найкращому спеціалісту!!!
+					</blockquote>
+					<p class="testimonial-names">&mdash; Артур</p>
+				</figure>
+				<figure class="testimonial">
+					<img class="testimonial-img" src="img/rev7.webp" alt="Photo of customer Hannah Smith">
+					<blockquote class="testimonial-text">Дуже вдячні Дар'ї за роботу) Прекрасний спеціаліст.З
+						першого ж заняття знайшла спільну мову з дитиною.Заняття проходили
+						в теплій,дружній атмосфері і в цікавій ігровій формі. Донечка бігла з задоволенням на кожне
+						заняття,а головне те,що
+						хороший результат не змусив на себе чекати👍</blockquote>
+					<p class="testimonial-names">&mdash; Аріна</p>
+				</figure>
+				<figure class="testimonial">
+					<img class="testimonial-img" src="img/rev8.webp" alt="Photo of customer Hannah Smith">
+					<blockquote class="testimonial-text">Дуже вдячні Дар‘ї за її роботу! З першого заняття було
+						помітно, що синок,5 років,почав чіткіше вимовляти звуки, і
+						контакт налагоджено) результат не змусив себе довго чекати- через місяць дитина почала
+						вимовляти всі звуки) Дякуємо щиро
+						і рекомендуємо без вагань❤️
+					</blockquote>
+					<p class="testimonial-name">&mdash; Андрій</p>
+				</figure>
+
+			</div>
+
+		</section>
+
+		<section class="section-pricing" id="about" data-aos="zoom-in">
+
+			<div class="slider-thumb1"></div>
+			<div class="slider-thumb3"></div>
+
+			<div class="container">
+				<img class="about-img" src="img/Daria.webp" alt="">
+				<div class="about-heading">Солдатенко Дар'я Володимирівна</div>
+				<p class="about-sub-heading">Вчитель логопед-дефектолог</p>
+				<p class="about-paragraph">Більше 10 років стаж роботи у корекційній освіті. Проводжу очні та онлайн
+					корекційні заняття, надаю консультації з
+					мовленнєвого розвитку дитини, особливостей розвитку дітей різного віку. Навчаю батьків ефективно
+					допомогти дитині
+					засвоїти отриманні знання, розкриваю прості секрети для швидкого розвитку мовлення дітей. Завдяки
+					великому стажу роботи
+					з дітьми легко знаходжу контакт для подальшої комунікації. Всі люди мають право на вільне володіння
+					правильною
+					звуковимовою і багатий словниковий запас! Якщо ви бажаєте, щоб ваша дитина була цікавим
+					співрозмовником,
+					говорила чітко,
+					правильно, красиво-тоді вам точно необхідно записатись на консультацію.</p>
+
+			</div>
+
+			<div class="slider-thumb2"></div>
+			<div>
+				<p class="feature-title">Кращі якості:</p>
+			</div>
+
+
+			<div class="container about-grid" data-aos="zoom-in">
+
+
+
+				<div class="feature">
+
+					<ion-icon class="feature-icon" name="accessibility-outline"></ion-icon>
+
+					<p class="feature-text">Індивідуальний підхід – поважаємо особливості кожного, тому з кожним
+						клієнтом розробляється індивідуальний план роботи.</p>
+				</div>
+				<div class="feature">
+					<ion-icon class="feature-icon" name="bookmark-outline"></ion-icon>
+
+					<p class="feature-text">Гарантія результату – після кожного заняття ви будете помічати покращення
+						мовлення вашої дитини.
+					</p>
+				</div>
+				<div class="feature">
+
+					<ion-icon class="feature-icon" name="medal-outline"></ion-icon>
+
+					<p class="feature-text">Профессіоналізм та доступність – використовуємо лише новітні методики,
+						розроблені за віком та рівнем розвитку дитини для найкращої взаємодії.</p>
+				</div>
+
+			</div>
+		</section>
+		<section class="section-cta" id="cta" data-aos="zoom-in">
+			<div class="container">
+				<div class="cta">
+					<div class="cta-text-box">
+						<h2 class="heading-secondary">Безкоштовна консультація!</h2>
+						<p class="cta-text">Замовте консультацію та отримайте відповіді на важливі для Вас питання
+							стосовно Вашої дитини!</p>
+						<!-- ------------BUILDING FORM ------------------->
+						<form class="cta-form" action="https://formsubmit.co/6f5dee4d94dfa0844873bd796453c732"
+							method="POST" enctype="text/plain">
+							<div>
+								<label for="full-name">Ім'я</label>
+								<input id="full-name" name="name" type="text" placeholder="John Smith" required>
+							</div>
+							<div>
+								<label for="email">Email Адреса</label>
+								<input id="email" name="email" type="email" placeholder="me@example.com" required>
+							</div>
+							<div>
+								<label for="phone">Телефон</label>
+								<input id="phone" name="phone" type="tel" placeholder="+380 00 000 0000" required>
+							</div>
+							<div>
+								<label for="select-where">Де Ви про нас почули?</label>
+								<select name="_subject" id="select-where" required>
+									<option value="">Вибиріть одну опцію:</option>
+									<option value="friends">Друзі та сім'я</option>
+									<option value="youtube">YouTube</option>
+									<option value="Instagram">Instagram</option>
+									<option value="Facebook">Facebook</option>
+									<option value="others">Інше</option>
+								</select>
+							</div>
+							<button class="btn btn-form" type="submit">Замовити!</button>
+						</form>
+					</div>
+					<div class="cta-img-box" role="img" aria-label="Woman enjoying food"></div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer gradient-background">
+
+		<div class="container center-content" data-aos="zoom-in">
+			<div class="logo-col">
+
+				<a href="#"><img class="footer-logo" src="img/favicon.svg" alt="Child Speech logo"></a>
+
+			</div>
+			<div class="address-col">
+				<p class="footer-heading"> Зв'язатися з нами</p>
+				<address class="contacts">
+					<p class="address"> Запоріжжя, Україна</p>
+					<p> <a class="footer-link" href="tel:415-201-6370">097-000-0000</a><br>
+						<a class="footer-link" href="mailto:hello@omnifood.com">contact@logopedushka.com</a>
+					</p>
+				</address>
+			</div>
+			<ul class="social-links">
+				<li><a class="footer-link" href="#">
+						<ion-icon class="social-icons" name="logo-instagram"></ion-icon>
+					</a></li>
+				<li><a class="footer-link" href="#">
+						<ion-icon class="social-icons" name="logo-facebook"></ion-icon>
+					</a></li>
+				<li><a class="footer-link" href="#">
+						<ion-icon class="social-icons" name="logo-twitter"></ion-icon>
+					</a></li>
+			</ul>
+
+			<p class="copyright">Copyright &copy; <span class="year">2028</span> by Child Speech. All rights
+				reserved.</p>
+		</div>
+	</footer>
+
+
+	<!-- JAVA SCRIPT -->
+	<script defer src="js/aos.js"></script>
+	<script defer src="js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</body>
+
+</html>
